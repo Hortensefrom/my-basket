@@ -1,0 +1,258 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+body {
+  background-color: white;
+  color:black;
+  font-family: elegant lux;
+  margin : 0px;
+}
+
+h1 {
+  font-family: elegant lux;
+  font-size: 35px;
+  color:black;
+  text-align :center;
+}
+
+h2 {
+  color :black;
+  font-size: 25px;
+  font-family: elegant lux;
+  text-align: center;
+  margin:15px;
+}
+
+h3 {
+  color : grey;
+  font-size: 20px;
+}
+
+.blanc {
+  color : white;
+}
+
+p {
+  color: black;
+  position: relative;
+  margin: 20px;
+}
+
+h4 {
+  margin: 0;
+}
+
+/* Banner */
+
+.banner {
+  background: linear-gradient(135deg, rgba(56, 57, 59, 0.2) 0%, rgba(84, 82, 16, 0.4) 100%), 
+ url(https://static.pexels.com/photos/315737/pexels-photo-315737.jpeg);
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  padding: 150px 100px;
+  color: white;
+}
+
+.button1 {
+  color: #999999;
+  background-color: white;
+  padding: 12px 19px;
+  border-radius: 50px;
+  opacity: 0.9;
+  font-size: 25px;
+  margin:20px;
+} 
+
+.button1:hover {
+  color : #3f9e5b;
+  text-decoration : none;
+}
+
+/* Card */
+
+.card {
+  height: 175px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  background-position: center;
+  color: white;
+  position: relative;
+  margin : 20px;
+  margin-top: 35px;
+}
+
+.card-category {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.card-description h2 {
+  font-size: 24px;
+  color:white
+}
+.card-description p {
+  font-size: 14px;
+  opacity: 0.7;
+  font-weight: lighter;
+  color:white
+}
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index: 2;
+  background: black;
+  opacity: 0;
+}
+.card-link:hover {
+  opacity: 0.1;
+}
+
+.rm {
+  text-align: right;
+  position : absolute;
+  color:black;
+  text-decoration: underline;
+  margin-right: 20px;
+  padding : 5px 20px;
+}
+
+.rm:hover {
+  color:#3f9e5b;
+}
+
+/* Main navbar */
+
+.navbar-wagon {
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+  background: #F4F4F4;
+  transition: all 0.3s ease;
+  height: 70px;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbarlogo img {
+  height: 50px;
+}
+
+.navbar-wagon .avatar {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+
+.navbar-wagon-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-wagon-item {
+  cursor: pointer;
+  padding: 0 20px;
+  float : right;
+  position : relative;
+}
+
+.navbar-wagon-link {
+  color: #616668;
+  font-size: 14px;
+}
+.navbar-wagon-link:hover {
+  color: #3f9e5b;
+  text-decoration: none;
+}
+
+/* Dropdown menu */
+.navbar-wagon-dropdown-menu {
+  margin-top: 15px;
+  box-shadow: 1px 1px 4px #E6E6E6;
+  border-color: #E6E6E6;
+}
+.navbar-wagon-dropdown-menu li > a {
+  transition: color 0.3s ease;
+  font-weight: lighter !important;
+  color: #999999 !important;
+  font-size: 15px !important;
+  line-height: 22px !important;
+  padding: 10px 20px;
+}
+.navbar-wagon-dropdown-menu li > a:hover {
+  background: transparent !important;
+  color: black !important;
+}
+.navbar-wagon-dropdown-menu:before {
+  content: ' ';
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  right: 10px;
+  top: -6px;
+  background-color: white;
+  transform: rotate(45deg);
+  border-left: 1px solid #E6E6E6;
+  border-top: 1px solid #E6E6E6;
+}
+
+
+/* Footer */ 
+
+.footer {
+  background: #F4F4F4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+  color: #47874d;
+}
+
+
+/* Newsletter */
+
+.newsletter {
+  text-align: center;
+}
+
+.button-newsletter {
+  color: white;
+  background-color: #999999;
+  padding: 8px 10px;
+  border-radius: 40px;
+  opacity: 0.9;
+  font-size: 20px;
+  margin:10px;
+}
+
+.button-newsletter:hover {
+  background-color : #3f9e5b;
+  text-decoration : none;
+}
